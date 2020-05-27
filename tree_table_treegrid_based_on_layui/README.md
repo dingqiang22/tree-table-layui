@@ -21,6 +21,7 @@
             ,treeId:'id'//树形id字段名称
             ,treeUpId:'pId'//树形父id字段名称
             ,treeShowName:'name'//以树形式显示的字段
+            ,treeShowFlag: false //默认展开
             ,cols: [[
                 {field:'name', edit:'text',width:'400', title: '水果'}
                 ,{field:'id', edit:'text',width:'100', title: 'id'}
